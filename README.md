@@ -1,4 +1,4 @@
-** cljclr.tools.cli ** is a command line argument parser for ClojureCLR
+**cljclr.tools.cli** is a command line argument parser for ClojureCLR
 
 This is a port of the clojure.tools.cli library to ClojureCLR.  The clojure.tools.cli project is at https://github.com/clojure/tools.cli.  The project contains the following notice:
 

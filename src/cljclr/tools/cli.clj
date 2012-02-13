@@ -31,7 +31,7 @@
   (not (.StartsWith v "--no-")))  ;RR: .startsWith
 
 (defn opt? [^String x]
-  (.StartsWith (str x) "-"))            ;RR: .startsWith and (str x))
+  (.StartsWith x "-"))            ;RR: .startsWith
 
 (defn flag? [^String x]
   (.StartsWith x "--[no-]"))      ;RR: .startsWith
