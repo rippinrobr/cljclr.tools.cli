@@ -91,5 +91,6 @@
             :server "localhost"} options))
     (is (= ["filename"] args))))
 
+;; RR Added after using the lib in a sample app.  Threw an error on char conversion
 (deftest clr-specific
   (is (= true (opt? (first "-")))))
